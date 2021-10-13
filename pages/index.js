@@ -96,6 +96,9 @@ export default function Home() {
             </div>
           </a>
         </div>
+        <div className="backToTop">
+            <a href="#welcome">Back To Top</a>
+          </div>
       </section>
       <section id="menu">
         <div className="menu-title">
