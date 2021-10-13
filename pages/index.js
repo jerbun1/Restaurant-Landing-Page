@@ -94,15 +94,12 @@ export default function Home() {
             <div className="circle-right">
               <i className="fa fa-chevron-right" aria-hidden="true"></i>
             </div>
-<<<<<<< HEAD
           </a>
-=======
-          </a>          
->>>>>>> main
+
+          <div>
+            This is some random text
+            </div>
         </div>
-        <div className="backToTop">
-            <a href="#welcome">Back To Top</a>
-          </div>
       </section>
       <section id="menu">
         <div className="menu-title">
@@ -380,9 +377,6 @@ export default function Home() {
           </div>
           </div>
         </div>
-        <div>
-          This is random text
-          </div>
         <div className="backToTop">
           <a href="#welcome">Back To Top</a>
         </div>
