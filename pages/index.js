@@ -95,9 +95,6 @@ export default function Home() {
               <i className="fa fa-chevron-right" aria-hidden="true"></i>
             </div>
           </a>
-          <div className="backToTop">
-            <a href="#welcome">Back To Top</a>
-          </div>
         </div>
       </section>
       <section id="menu">
