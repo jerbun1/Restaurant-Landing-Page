@@ -109,7 +109,7 @@ export default function Home() {
         <div className="food-slider">
           {/* Beef */}
           <div className="slide">
-            <div className="background"></div>
+            <div className="background">
             <div className="content">
               <div className="food-title">Beef</div>
               <p className="food-description">
@@ -119,6 +119,7 @@ export default function Home() {
                 className="beef-img"
                 src="https://www.deliciousmagazine.co.uk/wp-content/uploads/2018/09/905610-1-eng-GB_burger-768x960.jpg"
               />
+            </div>
             </div>
           </div>
           {/* Chicken */}
