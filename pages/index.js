@@ -95,6 +95,10 @@ export default function Home() {
               <i className="fa fa-chevron-right" aria-hidden="true"></i>
             </div>
           </a>
+
+          <div>
+            This is some random text
+            </div>
         </div>
       </section>
       <section id="menu">
