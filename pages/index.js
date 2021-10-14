@@ -34,7 +34,7 @@ export default function Home() {
             <ul className="links">
               <li>
                 <a className="menu-link" href="#menu">
-                  Menu <i class="fa fa-hamburger"></i>
+                  Menu <i className="fa fa-hamburger"></i>
                 </a>
               </li>
               <li>
@@ -54,7 +54,7 @@ export default function Home() {
         <div className="welcome-jumbo">
         <div className="burger-title">
             <div className="status">new</div>
-            <h1>World's Famous Ring Burger</h1>
+            <h1>Worlds Famous Ring Burger</h1>
           </div>
           <img
             className="burger"
