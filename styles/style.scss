@@ -4,7 +4,7 @@
     .welcome-menu{
         display: flex;
         flex-direction: column;
-        width: 30%;
+        width: 35%;
         background: black;
         .logo{
             img{
@@ -68,10 +68,11 @@
     }
     .welcome-jumbo{
         height: 100%;
-        .burger{
-            height: 800px;
-            width: 100%;
-        }
+        background: url("https://waybackburgers.com/wp-content/uploads/Rodeo_Large.jpg");
+        // .burger{
+        //     height: 800px;
+        //     width: 100%;
+        // }
         .burger-title{
             position: absolute;
             color: white;

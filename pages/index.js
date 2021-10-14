@@ -56,10 +56,10 @@ export default function Home() {
             <div className="status">new</div>
             <h1>Worlds Famous Ring Burger</h1>
           </div>
-          <img
+          {/* <img
             className="burger"
             src="https://waybackburgers.com/wp-content/uploads/Rodeo_Large.jpg"
-          />
+          /> */}
           
         </div>
       </section>
