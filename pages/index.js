@@ -56,10 +56,10 @@ export default function Home() {
             <div className="status">new</div>
             <h1>Worlds Famous Ring Burger</h1>
           </div>
-          {/* <img
+          <img
             className="burger"
             src="https://waybackburgers.com/wp-content/uploads/Rodeo_Large.jpg"
-          /> */}
+          />
           
         </div>
       </section>
@@ -96,9 +96,7 @@ export default function Home() {
             </div>
           </a>
 
-          <div>
-            This is some random text
-            </div>
+          
         </div>
       </section>
       <section id="menu">
