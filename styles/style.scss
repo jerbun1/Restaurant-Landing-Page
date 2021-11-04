@@ -174,7 +174,7 @@
 }
 #menu{
     background: url("https://images.pexels.com/photos/1484516/pexels-photo-1484516.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
-    padding: 20px;
+    padding: 140px;
     .menu-title{
         text-align: center;
         text-transform: uppercase;
@@ -206,7 +206,7 @@
         display: flex;
         padding: 10px;
         
-        .slide{
+        .slide1{
             width: 20%;
             margin: 15px;
             .background{
@@ -240,6 +240,47 @@
                     position: relative;
                     top: -15px;
                 }
+               
+            }
+            &:hover{
+                .food-title{
+                    color: white;
+                    transition: all .3s ease-in-out;
+                }
+                .background{
+                    background:#ed4852;
+                    transform: translate3d(0, -10px,0);
+                }
+                .content{
+                    color: white;
+
+                }
+            }
+        }
+        .slide2{
+            width: 20%;
+            margin: 15px;
+            .background{
+                background:white;
+                height: 423px;
+                width: 325px;
+                position: absolute;
+            }
+            .content{
+                margin: 15px;
+                position: relative;
+                transition: all .3s ease-in-out;
+                .food-title{
+                    font-size: 1.4rem;
+                    text-align: center;
+                    padding: 15px;
+                    color: #ed4852;
+                }
+                .food-description{
+                    padding: 20px;
+                    text-align: center;
+                    margin-bottom: 20px;
+                }
                 .chicken-img{
                     height: 200px;
                     width: 90%;
@@ -249,6 +290,47 @@
                     margin: auto;
                     position: relative;
                     top: 25px;
+                    left: -20px;
+                }
+            }
+            &:hover{
+                .food-title{
+                    color: white;
+                    transition: all .3s ease-in-out;
+                }
+                .background{
+                    background:#ed4852;
+                    transform: translate3d(0, -10px,0);
+                }
+                .content{
+                    color: white;
+
+                }
+            }
+        }
+        .slide3{
+            width: 20%;
+            margin: 15px;
+            .background{
+                background:white;
+                height: 423px;
+                width: 325px;
+                position: absolute;
+            }
+            .content{
+                margin: 15px;
+                position: relative;
+                transition: all .3s ease-in-out;
+                .food-title{
+                    font-size: 1.4rem;
+                    text-align: center;
+                    padding: 15px;
+                    color: #ed4852;
+                }
+                .food-description{
+                    padding: 20px;
+                    text-align: center;
+                    margin-bottom: 20px;
                 }
                 .salad-img{
                     height: 200px;
@@ -259,6 +341,48 @@
                     margin: auto;
                     position: relative;
                     top: 25px;
+                    left: -20px;
+
+                }
+            }
+            &:hover{
+                .food-title{
+                    color: white;
+                    transition: all .3s ease-in-out;
+                }
+                .background{
+                    background:#ed4852;
+                    transform: translate3d(0, -10px,0);
+                }
+                .content{
+                    color: white;
+
+                }
+            }
+        }
+        .slide4{
+            width: 20%;
+            margin: 15px;
+            .background{
+                background:white;
+                height: 423px;
+                width: 325px;
+                position: absolute;
+            }
+            .content{
+                margin: 15px;
+                position: relative;
+                transition: all .3s ease-in-out;
+                .food-title{
+                    font-size: 1.4rem;
+                    text-align: center;
+                    padding: 15px;
+                    color: #ed4852;
+                }
+                .food-description{
+                    padding: 20px;
+                    text-align: center;
+                    margin-bottom: 20px;
                 }
                 .pasta-img{
                     height: 200px;
@@ -269,6 +393,48 @@
                     margin: auto;
                     position: relative;
                     top: 25px;
+                    left: -20px;
+
+                }
+            }
+            &:hover{
+                .food-title{
+                    color: white;
+                    transition: all .3s ease-in-out;
+                }
+                .background{
+                    background:#ed4852;
+                    transform: translate3d(0, -10px,0);
+                }
+                .content{
+                    color: white;
+
+                }
+            }
+        }
+        .slide5{
+            width: 20%;
+            margin: 15px;
+            .background{
+                background:white;
+                height: 423px;
+                width: 325px;
+                position: absolute;
+            }
+            .content{
+                margin: 15px;
+                position: relative;
+                transition: all .3s ease-in-out;
+                .food-title{
+                    font-size: 1.4rem;
+                    text-align: center;
+                    padding: 15px;
+                    color: #ed4852;
+                }
+                .food-description{
+                    padding: 20px;
+                    text-align: center;
+                    margin-bottom: 20px;
                 }
                 .dessert-img{
                     height: 200px;
@@ -279,6 +445,8 @@
                     margin: auto;
                     position: relative;
                     top: 25px;
+                    left: -20px;
+
                 }
             }
             &:hover{
@@ -454,4 +622,399 @@
             }
         }
     }
+}
+
+@media only screen and (max-width: 600px) {
+    body{
+        margin:0;
+        width: 600px;
+    }
+    div{
+        margin:0;
+        width: 100%;
+    }
+    #welcome{
+        width: 100%;
+        .welcome-menu{
+            .menu{
+                margin: 0;
+                height: 100%;
+                .links{
+                    height: 80%;
+                    margin: auto;
+                    padding: 25px;
+                    li{
+                        font-size: 2rem;
+                        padding: 0;
+                        width: 100%;
+                        margin: 70px 0px;
+                        .menu-link{
+                            font-size: 2rem;
+                            padding: 10px;
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: center;
+                            align-items: center;
+                        }
+                        .info-link{
+                            font-size: 2rem;
+                            padding: 10px;
+                            .fa{
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                            }
+                        }
+                        .review-link{
+                            font-size: 2rem;
+                            padding: 10px;
+                            .fas{
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .welcome-jumbo{
+            height: 100%;
+            .burger-title{
+                position: absolute;
+                color: white;
+                left: 100%;
+                top: 30%;
+                width: 10%;
+                margin: auto;
+                font-size: 2.3rem;
+                .status{
+                    width: 220%;
+                }
+            }
+            .burger{
+                height: 820px;
+            }
+        }
+    }
+    #information{
+        display: flex;
+        flex-direction: column;        
+        width: 100%;
+        .restaurant-img{
+            width: 100%;
+        }
+        .info{
+            width: 100%;
+            margin: 0;
+            h2{
+                padding: 10px;
+            }
+            .paragraphs{
+                display: flex;
+                flex-direction: column;
+                padding:0;
+                margin: 0;
+
+            }
+            a{
+                margin: 0px 0px;
+            }
+            .link{
+                margin: 0px 0px;
+                position: relative;
+                right: -100px;
+                .circle-right{
+                    margin: 0;
+                }
+            }
+        }
+    }
+    #menu{
+        padding: 0;
+        width: 100%;
+        .food-slider{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr 1fr 1fr;
+
+            .slide1{
+                grid-column: 1/2;
+                grid-row: 1/2;
+                height: 360px;
+                width: 225px;
+                .background{
+                    background: white;
+                    height: 360px;
+                    width: 225px;
+                    position: absolute;
+                    .content{
+                        margin: 0;
+                        height: 100%;
+                        width: 100%;
+                        .food-title{
+                            width: 20%;
+                            margin: auto;
+                        }
+                        .food-description{
+                            width: 70%;
+                            margin: auto;
+                            text-align: center;
+                        }
+                        .beef-img{
+                            margin: 0;
+                            width: 60%;
+                            height: 60%;
+                            position: relative;
+                            left: 30px;
+                        }
+                    }
+                }
+            }
+            .slide2{
+                grid-column: 2/3;
+                grid-row: 1/2;
+                height: 360px;
+                width: 225px;
+                .background{
+                    background: white;
+                    height: 360px;
+                    width: 225px;
+                    position: absolute;
+                }
+                    .content{
+                        margin: 0;
+                        height: 100%;
+                        width: 100%;
+                        .food-title{
+                            width: 40%;
+                            margin: auto;
+                        }
+                        .food-description{
+                            width: 70%;
+                            padding: 10px;
+                            margin: auto;
+                            text-align: center;
+                        }
+                        .chicken-img{
+                            margin: 0;
+                            width: 60%;
+                            height: 60%;
+                            position: relative;
+                            left: 30px;
+                            top: -8px;
+                        }
+                    }
+                }
+            .slide3{
+                grid-column: 1/2;
+                grid-row: 2/3;
+                height: 360px;
+                width: 225px;
+                .background{
+                    background: white;
+                    height: 360px;
+                    width: 225px;
+                    position: absolute;
+                }
+                    .content{
+                        margin: 0;
+                        height: 100%;
+                        width: 100%;
+                        .food-title{
+                            width: 40%;
+                            margin: auto;
+                        }
+                        .food-description{
+                            width: 70%;
+                            padding: 10px;
+                            margin: auto;
+                            text-align: center;
+                        }
+                        .salad-img{
+                            margin: 0;
+                            width: 60%;
+                            height: 60%;
+                            position: relative;
+                            left: 30px;
+                            top: -8px;
+                        }
+                    }
+            }
+            .slide4{
+                grid-column: 2/3;
+                grid-row: 2/3;
+                height: 360px;
+                width: 225px;
+                .background{
+                    background: white;
+                    height: 360px;
+                    width: 225px;
+                    position: absolute;
+                }
+                    .content{
+                        margin: 0;
+                        height: 100%;
+                        width: 100%;
+                        .food-title{
+                            width: 40%;
+                            margin: auto;
+                        }
+                        .food-description{
+                            width: 70%;
+                            padding: 10px;
+                            margin: auto;
+                            text-align: center;
+                        }
+                        .pasta-img{
+                            margin: 0;
+                            width: 60%;
+                            height: 60%;
+                            position: relative;
+                            left: 30px;
+                            top: -8px;
+                        }
+                    }
+            }
+            .slide5{
+                grid-column: 1/3;
+                grid-row: 3/4;
+                height: 360px;
+                width: 225px;
+                .background{
+                    background: white;
+                    height: 360px;
+                    width: 225px;
+                    position: absolute;
+                }
+                    .content{
+                        margin: 0;
+                        height: 100%;
+                        width: 100%;
+                        .food-title{
+                            width: 40%;
+                            margin: auto;
+                        }
+                        .food-description{
+                            width: 70%;
+                            padding: 10px;
+                            margin: auto;
+                            text-align: center;
+                        }
+                        .dessert-img{
+                            margin: 0;
+                            width: 60%;
+                            height: 60%;
+                            position: relative;
+                            left: 30px;
+                            top: -8px;
+                        }
+                    }
+            }
+        }
+    }
+    #reviews{
+        width: 100%;
+        .background{
+            width: 100%;
+            .review-comment{
+                width: 100%;
+                .comment{
+                    width: 33.3%;
+                    .review-type{
+                        width: 100%;
+                    }
+                    .review-stars{
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        width: 100%;
+
+                    }
+                    .review-text{
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+    .footer{
+        width: 100%;
+        padding: 0;
+        .store-info{
+            width:100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            .contact{
+                width: 100%;
+                h1{
+                    font-size: 4rem;
+                    margin-bottom: 25px;
+                }
+                p{
+                    font-size: 1.5rem;
+                }
+                .phone-number{
+                    width:70%;
+                    color: white;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+                .book-btn{
+                    width: 45%;
+                    background: chocolate;
+                    padding: 10;
+                    font-size: 2.2rem;
+                }
+                .address{
+                    text-align: center;
+                    font-size: 1.6rem;
+                }
+                .route{
+                    width: 20%;
+                    background: crimson;
+                }
+            }
+            .store-hours{
+                width: 100%;
+                .title{
+                    text-align: center;
+                }
+                .weekdays{
+                    p{
+                        margin: 25px 0px;
+                    }
+                }
+                .hours{
+                    p{
+                        margin: 25px 0px;
+                    }
+                }
+            }
+            .follow{
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                h1{
+                    margin: 0;
+                }
+                .social-icons{
+                    margin: 10px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    width: 100%;
+                    position: relative;
+                    left: -10px;
+                }
+            }
+        }
+    }
+
+
 }

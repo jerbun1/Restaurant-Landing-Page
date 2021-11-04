@@ -108,7 +108,7 @@ export default function Home() {
         </div>
         <div className="food-slider">
           {/* Beef */}
-          <div className="slide">
+          <div className="slide1">
             <div className="background">
             <div className="content">
               <div className="food-title">Beef</div>
@@ -123,7 +123,7 @@ export default function Home() {
             </div>
           </div>
           {/* Chicken */}
-          <div className="slide">
+          <div className="slide2">
             <div className="background"></div>
             <div className="content">
               <div className="food-title">Chicken</div>
@@ -137,7 +137,7 @@ export default function Home() {
             </div>
           </div>
           {/* Salads */}
-          <div className="slide">
+          <div className="slide3">
             <div className="background"></div>
             <div className="content">
               <div className="food-title">Salads</div>
@@ -151,7 +151,7 @@ export default function Home() {
             </div>
           </div>
           {/* Pasta */}
-          <div className="slide">
+          <div className="slide4">
             <div className="background"></div>
             <div className="content">
               <div className="food-title">Pasta</div>
@@ -165,7 +165,7 @@ export default function Home() {
             </div>
           </div>
           {/* Dessert */}
-          <div className="slide">
+          <div className="slide5">
             <div className="background"></div>
             <div className="content">
               <div className="food-title">Desserts</div>
