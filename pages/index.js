@@ -49,7 +49,7 @@ export default function Home() {
               </li>
               <li>
                 <a className="contact-link" href="#footer">
-                  Contact <i class="fa fa-hashtag" aria-hidden="true"></i>
+                  Contact <i className="fa fa-hashtag" aria-hidden="true"></i>
                 </a>
               </li>
             </ul>
