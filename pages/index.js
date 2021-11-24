@@ -47,6 +47,11 @@ export default function Home() {
                   Reviews <i className="fas fa-comment"></i>
                 </a>
               </li>
+              <li>
+                <a className="contact-link" href="#footer">
+                  Contact <i class="fa fa-hashtag" aria-hidden="true"></i>
+                </a>
+              </li>
             </ul>
           </div>
           {/* <hr className="white-line"/> */}
@@ -315,7 +320,7 @@ export default function Home() {
         </div>
       </section>
 
-      <footer className="footer">
+      <footer id="footer" className="footer">
         <div className="store-info">
           <div className="contact">
             <h1>contact</h1>
