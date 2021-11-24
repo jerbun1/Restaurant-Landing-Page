@@ -1,3 +1,6 @@
+body{
+    margin: 0;
+}
 #welcome{
     display: flex;
     height: 120%;
@@ -174,6 +177,7 @@
 }
 #menu{
     background: url("https://images.pexels.com/photos/1484516/pexels-photo-1484516.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-size: cover;
     padding: 140px;
     .menu-title{
         text-align: center;
@@ -205,20 +209,15 @@
     .food-slider{
         display: flex;
         padding: 10px;
-        
+        height: 423px;
         .slide1{
-            width: 20%;
+            width: 30%;
             margin: 15px;
-            .background{
-                background:white;
-                height: 423px;
-                width: 325px;
-                position: absolute;
-            }
             .content{
-                margin: 15px;
                 position: relative;
                 transition: all .3s ease-in-out;
+                background:white;
+
                 .food-title{
                     font-size: 1.4rem;
                     text-align: center;
@@ -243,33 +242,25 @@
                
             }
             &:hover{
-                .food-title{
+                .food-title, .food-description{
                     color: white;
                     transition: all .3s ease-in-out;
                 }
-                .background{
+                
+                .content{
                     background:#ed4852;
                     transform: translate3d(0, -10px,0);
-                }
-                .content{
-                    color: white;
-
                 }
             }
         }
         .slide2{
-            width: 20%;
+            width: 30%;
             margin: 15px;
-            .background{
-                background:white;
-                height: 423px;
-                width: 325px;
-                position: absolute;
-            }
             .content{
-                margin: 15px;
                 position: relative;
                 transition: all .3s ease-in-out;
+                background:white;
+                height: 81%;
                 .food-title{
                     font-size: 1.4rem;
                     text-align: center;
@@ -282,44 +273,36 @@
                     margin-bottom: 20px;
                 }
                 .chicken-img{
-                    height: 200px;
+                    height: 45%;
                     width: 90%;
                     display: flex;
                     justify-content: center;
                     align-items: center;
                     margin: auto;
                     position: relative;
-                    top: 25px;
+                    top: -30px;
                 }
             }
             &:hover{
-                .food-title{
+                .food-title, .food-description{
                     color: white;
                     transition: all .3s ease-in-out;
                 }
-                .background{
+                
+                .content{
                     background:#ed4852;
                     transform: translate3d(0, -10px,0);
-                }
-                .content{
-                    color: white;
-
                 }
             }
         }
         .slide3{
-            width: 20%;
+            width: 30%;
             margin: 15px;
-            .background{
-                background:white;
-                height: 423px;
-                width: 325px;
-                position: absolute;
-            }
             .content{
-                margin: 15px;
                 position: relative;
                 transition: all .3s ease-in-out;
+                background:white;
+                height: 81%;
                 .food-title{
                     font-size: 1.4rem;
                     text-align: center;
@@ -332,44 +315,36 @@
                     margin-bottom: 20px;
                 }
                 .salad-img{
-                    height: 200px;
+                    height: 45%;
                     width: 90%;
                     display: flex;
                     justify-content: center;
                     align-items: center;
                     margin: auto;
                     position: relative;
-                    top: 25px;
+                    top: -30px;
                 }
             }
             &:hover{
-                .food-title{
+                .food-title, .food-description{
                     color: white;
                     transition: all .3s ease-in-out;
                 }
-                .background{
+                
+                .content{
                     background:#ed4852;
                     transform: translate3d(0, -10px,0);
-                }
-                .content{
-                    color: white;
-
                 }
             }
         }
         .slide4{
-            width: 20%;
+            width: 30%;
             margin: 15px;
-            .background{
-                background:white;
-                height: 423px;
-                width: 325px;
-                position: absolute;
-            }
             .content{
-                margin: 15px;
                 position: relative;
                 transition: all .3s ease-in-out;
+                background:white;
+                height: 81%;
                 .food-title{
                     font-size: 1.4rem;
                     text-align: center;
@@ -382,44 +357,37 @@
                     margin-bottom: 20px;
                 }
                 .pasta-img{
-                    height: 200px;
+                    height: 45%;
                     width: 90%;
                     display: flex;
                     justify-content: center;
                     align-items: center;
                     margin: auto;
                     position: relative;
-                    top: 25px;
+                    top: -30px;
                 }
             }
             &:hover{
-                .food-title{
+                .food-title, .food-description{
                     color: white;
                     transition: all .3s ease-in-out;
                 }
-                .background{
+                
+                .content{
                     background:#ed4852;
                     transform: translate3d(0, -10px,0);
-                }
-                .content{
-                    color: white;
-
                 }
             }
         }
         .slide5{
-            width: 20%;
+            width: 30%;
             margin: 15px;
-            .background{
-                background:white;
-                height: 423px;
-                width: 325px;
-                position: absolute;
-            }
             .content{
-                margin: 15px;
                 position: relative;
                 transition: all .3s ease-in-out;
+                background:white;
+                height: 81%;
+
                 .food-title{
                     font-size: 1.4rem;
                     text-align: center;
@@ -432,28 +400,25 @@
                     margin-bottom: 20px;
                 }
                 .dessert-img{
-                    height: 200px;
+                    height: 45%;
                     width: 90%;
                     display: flex;
                     justify-content: center;
                     align-items: center;
                     margin: auto;
                     position: relative;
-                    top: 25px;
+                    top: -30px;
                 }
             }
             &:hover{
-                .food-title{
+                .food-title, .food-description{
                     color: white;
                     transition: all .3s ease-in-out;
                 }
-                .background{
+                
+                .content{
                     background:#ed4852;
                     transform: translate3d(0, -10px,0);
-                }
-                .content{
-                    color: white;
-
                 }
             }
         }

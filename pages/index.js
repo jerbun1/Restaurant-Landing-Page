@@ -109,74 +109,68 @@ export default function Home() {
         <div className="food-slider">
           {/* Beef */}
           <div className="slide1">
-            <div className="background">
-            <div className="content">
-              <div className="food-title">Beef</div>
-              <p className="food-description">
-                All of our Beef items including Burgers, Ribs and Steaks
-              </p>
-              <img
-                className="beef-img"
-                src="https://www.deliciousmagazine.co.uk/wp-content/uploads/2018/09/905610-1-eng-GB_burger-768x960.jpg"
-              />
-            </div>
-            </div>
+          <div className="content">
+                <div className="food-title">Beef</div>
+                <p className="food-description">
+                  All of our Beef items including Burgers, Ribs and Steaks
+                </p>
+                <img
+                  className="beef-img"
+                  src="https://www.deliciousmagazine.co.uk/wp-content/uploads/2018/09/905610-1-eng-GB_burger-768x960.jpg"
+                />
+              </div>
           </div>
           {/* Chicken */}
           <div className="slide2">
-            <div className="background"></div>
-            <div className="content">
-              <div className="food-title">Chicken</div>
-              <p className="food-description">
-                All chicken items include Burgers, Meals and Pasta
-              </p>
-              <img
-                className="chicken-img"
-                src="https://img.taste.com.au/KWJWF7T0/w1200-h630-cfill/taste/2018/06/july-18_lemongrass-and-chilli-chicken-138895-1.jpg"
-              />
-            </div>
+          <div className="content">
+                <div className="food-title">Chicken</div>
+                <p className="food-description">
+                  All chicken items include Burgers, Meals and Pasta
+                </p>
+                <img
+                  className="chicken-img"
+                  src="https://img.taste.com.au/KWJWF7T0/w1200-h630-cfill/taste/2018/06/july-18_lemongrass-and-chilli-chicken-138895-1.jpg"
+                />
+              </div>   
           </div>
           {/* Salads */}
           <div className="slide3">
-            <div className="background"></div>
-            <div className="content">
-              <div className="food-title">Salads</div>
-              <p className="food-description">
-                Filling and Healthy Salads with home made dressing
-              </p>
-              <img
-                className="salad-img"
-                src="https://www.twopeasandtheirpod.com/wp-content/uploads/2019/06/Easy-Green-Salad-4-500x500.jpg"
-              />
-            </div>
+          <div className="content">
+                <div className="food-title">Salads</div>
+                <p className="food-description">
+                  Filling and Healthy Salads with home made dressing
+                </p>
+                <img
+                  className="salad-img"
+                  src="https://www.twopeasandtheirpod.com/wp-content/uploads/2019/06/Easy-Green-Salad-4-500x500.jpg"
+                />
+              </div>          
           </div>
           {/* Pasta */}
           <div className="slide4">
-            <div className="background"></div>
-            <div className="content">
-              <div className="food-title">Pasta</div>
-              <p className="food-description">
-                Delicious pasta with home made sauce
-              </p>
-              <img
-                className="pasta-img"
-                src="https://media.istockphoto.com/photos/pasta-with-meat-tomato-sauce-and-vegetables-picture-id857927726?k=20&m=857927726&s=612x612&w=0&h=7PRPPuKWStSob7flmCsIeez8oQRqMFGQfVv4wdBxZ5U="
-              />
-            </div>
+          <div className="content">
+                <div className="food-title">Pasta</div>
+                <p className="food-description">
+                  Delicious pasta with home made sauce
+                </p>
+                <img
+                  className="pasta-img"
+                  src="https://media.istockphoto.com/photos/pasta-with-meat-tomato-sauce-and-vegetables-picture-id857927726?k=20&m=857927726&s=612x612&w=0&h=7PRPPuKWStSob7flmCsIeez8oQRqMFGQfVv4wdBxZ5U="
+                />
+              </div>            
           </div>
           {/* Dessert */}
           <div className="slide5">
-            <div className="background"></div>
-            <div className="content">
-              <div className="food-title">Desserts</div>
-              <p className="food-description">
-                All of our Beef items including Burgers, Ribs and Steaks
-              </p>
-              <img
-                className="dessert-img"
-                src="https://www.eatthis.com/wp-content/uploads/sites/4/2020/10/pizookie-trio.jpg"
-              />
-            </div>
+          <div className="content">
+                <div className="food-title">Desserts</div>
+                <p className="food-description">
+                  All of our Beef items including Burgers, Ribs and Steaks
+                </p>
+                <img
+                  className="dessert-img"
+                  src="https://www.eatthis.com/wp-content/uploads/sites/4/2020/10/pizookie-trio.jpg"
+                />
+              </div>
           </div>
         </div>
       </section>
